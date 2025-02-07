@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Consumption Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#heatmap">Feature Correlation Heatmap</a></li>
+            <li><a href="#actual-vs-predicted">Actual vs Predicted</a></li>
+            <li><a href="#feature-importance">Feature Importance</a></li>
+            <li><a href="#energy-distribution">Energy Consumption Distribution</a></li>
+        </ul>
+    </nav>
+
+    <h1>Energy Consumption Analysis</h1>
+
+    <div class="image-section" id="heatmap">
+        <h2>Feature Correlation Heatmap</h2>
+        <p>This heatmap visualizes the correlation between different features in the dataset. Darker shades indicate stronger positive or negative relationships, helping to identify highly correlated variables that may impact energy consumption.</p>
+        <img src="heatmap.png" alt="Feature Correlation Heatmap">
+    </div>
+
+    <div class="image-section" id="actual-vs-predicted">
+        <h2>Actual vs Predicted Energy Consumption</h2>
+        <p>This scatter plot compares the actual energy consumption values with the model’s predicted values. A strong alignment along the diagonal line suggests accurate predictions, whereas deviations indicate errors.</p>
+        <img src="actual_vs_predicted.png" alt="Actual vs Predicted">
+    </div>
+
+    <div class="image-section" id="feature-importance">
+        <h2>Feature Importance</h2>
+        <p>This bar chart highlights the most influential features in predicting energy consumption. Features with higher importance contribute significantly to the model’s decision-making, guiding optimization efforts.</p>
+        <img src="feature_importance.png" alt="Feature Importance">
+    </div>
+
+    <div class="image-section" id="energy-distribution">
+        <h2>Energy Consumption Distribution</h2>
+        <p>This histogram shows the frequency distribution of energy consumption values in the dataset. The curve provides insights into the overall consumption pattern, helping to detect skewness or anomalies.</p>
+        <img src="energy_consumption_distribution.png" alt="Energy Consumption Distribution">
+    </div>
+
+</body>
+</html>
